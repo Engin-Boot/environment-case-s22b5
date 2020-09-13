@@ -6,8 +6,11 @@ on:
  
 jobs:
   build:
-    runs-on: windows-latest
-    steps:
+   env:
+      Solution_Name: ReviewOfReviews.sln
+   
+   runs-on: windows-latest
+   steps:
     - uses: actions/checkout@v2
 
     - name: Build with dotnet
