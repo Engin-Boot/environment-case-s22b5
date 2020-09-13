@@ -7,7 +7,7 @@ on:
 jobs:
   build:
    env:
-      Solution_Name: ReviewOfReviews.sln
+      Solution_Name: EnvironmentMonitoringSystem.sln
    
    runs-on: windows-latest
    steps:
