@@ -8,7 +8,7 @@ jobs:
   build:
    env:
       Solution_Name: EnvironmentMonitoringSystem.sln
-      Test_Project_Path: EnvironmentMonitoringSystem.Tests\EnvironmentMonitoringSystem.Tests.csproj
+      Test_Project_Path: EnvironmentMonitoringSystem\sender.Tests\sender.Tests.csproj
    
    runs-on: windows-latest
    steps:
