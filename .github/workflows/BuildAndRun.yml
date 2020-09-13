@@ -8,6 +8,7 @@ jobs:
   build:
    env:
       Solution_Name: EnvironmentMonitoringSystem.sln
+      Test_Project_Path: EnvironmentMonitoringSystem.Tests\EnvironmentMonitoringSystem.Tests.csproj
    
    runs-on: windows-latest
    steps:
@@ -21,5 +22,3 @@ jobs:
 
     - name: Run tests
       run: dotnet test
-      env:
-       Solution_Name: EnvironmentMonitoringSystem.sln
