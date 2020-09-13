@@ -13,7 +13,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Solution_Name: EnvironmentMonitoringSystem\EnvironmentMonitoringSystem.sln 
+      Solution_Name: EnvironmentMonitoringSystem.sln 
  
     steps:
     - name: Checkout
