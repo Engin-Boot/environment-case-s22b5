@@ -6,9 +6,9 @@ on:
  
 jobs:
   build:
-   env:
-      Solution_Name: EnvironmentMonitoringSystem.sln
-      Test_Project_Path: EnvironmentMonitoringSystem\sender.Tests\sender.Tests.csproj
+#    env:
+#       Solution_Name: EnvironmentMonitoringSystem.sln
+#       Test_Project_Path: EnvironmentMonitoringSystem\sender.Tests\sender.Tests.csproj
    
    runs-on: windows-latest
    steps:
@@ -19,6 +19,3 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
-
-    - name: Run tests
-      run: dotnet test
