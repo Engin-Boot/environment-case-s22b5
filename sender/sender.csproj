@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Utils\DataSender.cs" />
-    <Compile Include="Data\Environment.cs" />
     <Compile Include="Utils\FileReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
