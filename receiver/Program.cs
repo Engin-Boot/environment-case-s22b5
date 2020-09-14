@@ -26,15 +26,13 @@ namespace receiver
             while ((receivedData = DataReceiver.ReceiveViaConsole()) != null)
             {
                 var isValid = DataValidator.ValidateReceivedData(receivedData, ref environmentData);
-                if (isValid)
-                {
-                    var temperatureStatusCode =
-                        DataChecker.CheckTemperatureAndReturnStatusCode(environmentData.Temperature);
-                    var humidityStatusCode = DataChecker.CheckHumidityAndReturnStatusCode(environmentData.Humidity);
+                if (!isValid) continue;
+                var temperatureStatusCode =
+                    DataChecker.CheckTemperatureAndReturnStatusCode(environmentData.Temperature);
+                var humidityStatusCode = DataChecker.CheckHumidityAndReturnStatusCode(environmentData.Humidity);
 
-                    Logger.LoggingTemperatureToConsole(temperatureStatusCode);
-                    Logger.LoggingTemperatureToConsole( humidityStatusCode);
-                }
+                Logger.LoggingTemperatureToConsole(temperatureStatusCode);
+                Logger.LoggingHumidityToConsole( humidityStatusCode);
             }
         }
     }
