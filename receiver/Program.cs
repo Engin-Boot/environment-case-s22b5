@@ -1,54 +1,40 @@
 ﻿using receiver.Data;
 using receiver.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 
 namespace receiver
 {
     internal class Program
     {
-        private static readonly DataReceiver dataReceiver;
-        private static readonly DataValidator dataValidator;
-        private static readonly DataChecker dataChecker;
-        private static readonly Logger logger;
+        private static readonly DataReceiver DataReceiver;
+        private static readonly DataValidator DataValidator;
+        private static readonly DataChecker DataChecker;
+        private static readonly Logger Logger;
         
 
         static Program()
         {
-            dataReceiver = new DataReceiver();          
-            dataValidator = new DataValidator();
-            dataChecker = new DataChecker();
-            logger = new Logger();
+            DataReceiver = new DataReceiver();          
+            DataValidator = new DataValidator();
+            DataChecker = new DataChecker();
+            Logger = new Logger();
 
         }
-        static void Main()
+        internal static void Main()
         {
             string receivedData;
-            EnvironmentData environmentData = new EnvironmentData();
-            while ((receivedData = dataReceiver.ReceiveViaConsole()) != null)
+            var environmentData = new EnvironmentData();
+            while ((receivedData = DataReceiver.ReceiveViaConsole()) != null)
             {
-                //var receivedData = dataReceiver.ReceiveViaConsole();
-                
-                var isValid = dataValidator.validateReceivedData(receivedData, ref environmentData);
+                var isValid = DataValidator.ValidateReceivedData(receivedData, ref environmentData);
                 if (isValid)
                 {
-                    var temperatureStatusCode = dataChecker.CheckTemperatureAndReturnStatusCode(environmentData.temperature);
-                    var humidityStatusCode = dataChecker.CheckHumidityAndReturnStatusCode(environmentData.humidity);
+                    var temperatureStatusCode =
+                        DataChecker.CheckTemperatureAndReturnStatusCode(environmentData.Temperature);
+                    var humidityStatusCode = DataChecker.CheckHumidityAndReturnStatusCode(environmentData.Humidity);
 
-                    logger.loggingToConsole(temperatureStatusCode, humidityStatusCode);
+                    Logger.LoggingToConsole(temperatureStatusCode, humidityStatusCode);
                 }
-                else
-                {
-                    Console.WriteLine("Inconsistent Data");
-                }
-
-
             }
-
         }
     }
 }

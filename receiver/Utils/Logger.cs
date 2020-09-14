@@ -4,37 +4,37 @@ namespace receiver.Utils
 {
     internal class Logger
     {
-        internal void loggingToConsole(int temperatureStatusCode, int humidityStatusCode)
+        internal void LoggingToConsole(int temperatureStatusCode, int humidityStatusCode)
         {
-            var temperatureMessage = "";
-            var humidityMessage = "";
+            string temperatureMessage;
+            string humidityMessage;
 
-            if (temperatureStatusCode == 0)
+            switch (temperatureStatusCode)
             {
-                temperatureMessage = "Temperature: OK";
-            }
-            else if (temperatureStatusCode == 1)
-            {
-                temperatureMessage = "Temperature: Warning";
-            }
-            else
-            {
-                temperatureMessage = "Temperature: Error";
+                case 0:
+                    temperatureMessage = "Temperature: OK";
+                    break;
+                case 1:
+                    temperatureMessage = "Temperature: Warning";
+                    break;
+                default:
+                    temperatureMessage = "Temperature: Error";
+                    break;
             }
             Console.WriteLine(temperatureMessage);
 
             
-            if (humidityStatusCode == 0)
+            switch (humidityStatusCode)
             {
-                humidityMessage = "Humidity: OK";
-            }
-            else if (humidityStatusCode == 1)
-            {
-                humidityMessage = "Humidity: Warning";
-            }
-            else
-            {
-                humidityMessage = "Humidity: Error";
+                case 0:
+                    humidityMessage = "Humidity: OK";
+                    break;
+                case 1:
+                    humidityMessage = "Humidity: Warning";
+                    break;
+                default:
+                    humidityMessage = "Humidity: Error";
+                    break;
             }
             Console.WriteLine(humidityMessage);
         }
