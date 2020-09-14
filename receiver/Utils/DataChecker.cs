@@ -1,65 +1,38 @@
-﻿
-namespace receiver.Utils
+﻿namespace receiver.Utils
 {
     internal class DataChecker
     {
         internal int CheckTemperatureAndReturnStatusCode(double temperature)
         {
             int temperatureStatusCode;
-            /*if ((temperature > 0 && temperature <= 4) || (temperature >= 37 && temperature < 40))
-            {
-                temperatureStatusCode= 1; // warning
-            }
-            else if((temperature <= 0) || (temperature >= 40))
-            {
-                temperatureStatusCode= 2; // error
-            }
-            else
-            {
-                temperatureStatusCode= 0; // OK
-            }*/
-            if (IsOKTemperature(temperature))
-                temperatureStatusCode = 0;
+            if (IsOkTemperature(temperature))
+                temperatureStatusCode = ReceiverConstants.Ok;
             else if (IsErrorTemperature(temperature))
-                temperatureStatusCode = 2;
+                temperatureStatusCode = ReceiverConstants.Error;
             else
-                temperatureStatusCode = 1;
+                temperatureStatusCode = ReceiverConstants.Warning;
             return temperatureStatusCode;
         }
 
-        private bool IsOKTemperature(double temperature)
+        private static bool IsOkTemperature(double temperature)
         {
-            return temperature > 4 && temperature < 37;
+            return (temperature > ReceiverConstants.TemperatureOkLowerLimit && temperature < ReceiverConstants.TemperatureOkUpperLimit);
         }
 
         private static bool IsErrorTemperature(double temperature)
         {
-            return temperature <= 0 || temperature >= 40;
+            return (temperature <= ReceiverConstants.TemperatureErrorLowerLimit || temperature >= ReceiverConstants.TemperatureErrorUpperLimit);
         }
 
         internal int CheckHumidityAndReturnStatusCode(double humidity)
         {
             int humidityStatusCode;
-            /*
-            if (humidity >= 70 && humidity < 90)
-            {
-                humidityStatusCode= 1;// warning
-            }
-            else if (humidity >= 90)
-            {
-                humidityStatusCode= 2;// error
-            }
+            if (humidity < ReceiverConstants.HumidityOkUpperLimit)
+                humidityStatusCode = ReceiverConstants.Ok;
+            else if (humidity >= ReceiverConstants.HumidityErrorLowerLimit)
+                humidityStatusCode = ReceiverConstants.Error;
             else
-            {
-                humidityStatusCode= 0;// OK   
-            }
-            */
-            if (humidity < 70)
-                humidityStatusCode = 0;
-            else if (humidity >= 90)
-                humidityStatusCode = 2;
-            else
-                humidityStatusCode = 1;
+                humidityStatusCode = ReceiverConstants.Warning;
             return humidityStatusCode;
         }
     }
