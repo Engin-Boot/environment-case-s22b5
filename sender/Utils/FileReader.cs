@@ -8,13 +8,12 @@ namespace sender.Utils
     {        
         internal List<string> ReadCSV(string path)
         {
-            List<string> dataArray = new List<string>();
+            var dataArray = new List<string>();
             if (File.Exists(path))
             {
                 using(StreamReader reader =new StreamReader(path))
                 {
-                    string line;
-                    line = reader.ReadLine();
+                    var line = reader.ReadLine();
                     while ((line = reader.ReadLine() )!= null)
                     {
                         dataArray.Add(line);

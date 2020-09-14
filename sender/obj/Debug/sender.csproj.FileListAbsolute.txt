@@ -30,3 +30,5 @@ C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CoreCom
 C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CopyComplete
 C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.exe
 C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.pdb
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\JetBrains.Annotations.dll
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\JetBrains.Annotations.xml

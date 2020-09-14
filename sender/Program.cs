@@ -5,14 +5,14 @@ namespace sender
 {
     public class Program
     {
-        private static FileReader fileReader;
-        private static DataSender dataSender;
+        private static readonly FileReader fileReader;
+        private static readonly DataSender dataSender;
         static Program()
         {
             fileReader = new FileReader();
             dataSender = new DataSender();
         }
-        static void Main(string[] args)
+        static void Main()
         {
             List<string> dataToSend =fileReader.ReadCSV(Utils.SenderConstants.csvFilePath);
             //Console.WriteLine(dataToSend);
