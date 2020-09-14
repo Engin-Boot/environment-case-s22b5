@@ -18,13 +18,18 @@ namespace receiver.Utils
             {
                 temperatureStatusCode= 0; // OK
             }*/
-            if (temperature > 4 && temperature < 37)
+            if (IsOKTemperature(temperature))
                 temperatureStatusCode = 0;
             else if (IsErrorTemperature(temperature))
                 temperatureStatusCode = 2;
             else
                 temperatureStatusCode = 1;
             return temperatureStatusCode;
+        }
+
+        private bool IsOKTemperature(double temperature)
+        {
+            return temperature > 4 && temperature < 37;
         }
 
         private static bool IsErrorTemperature(double temperature)
