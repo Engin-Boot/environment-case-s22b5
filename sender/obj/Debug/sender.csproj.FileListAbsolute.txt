@@ -32,3 +32,21 @@ C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.exe
 C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.pdb
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\JetBrains.Annotations.dll
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\JetBrains.Annotations.xml
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\sender.exe.config
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\sender.exe
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\sender.pdb
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\JetBrains.Annotations.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.assert.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.core.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\JetBrains.Annotations.xml
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.xml
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.assert.xml
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.core.xml
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.xml
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.csprojAssemblyReference.cache
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.csproj.CoreCompileInputs.cache
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.csproj.CopyComplete
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.exe
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.pdb
