@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 
 namespace sender.Utils
-{
+{ 
     internal class FileReader
     {        
         internal List<string> ReadCsv(string path)
@@ -11,9 +11,11 @@ namespace sender.Utils
             var dataArray = new List<string>();
             if (File.Exists(path))
             {
-                using(StreamReader reader =new StreamReader(path))
+                using(TextReader reader =new StreamReader(path))
                 {
-                    var line = reader.ReadLine();
+                    
+                    string line;
+                    reader.ReadLine();
                     while ((line = reader.ReadLine() )!= null)
                     {
                         dataArray.Add(line);

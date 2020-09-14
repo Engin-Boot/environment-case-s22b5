@@ -13,7 +13,7 @@ namespace sender
         }
         internal static void Main()
         {
-            var dataToSend = FileReader.ReadCsv(Utils.SenderConstants.CsvFilePath);
+            var dataToSend = FileReader.ReadCsv(SenderConstants.CsvFilePath);
             //Console.WriteLine(dataToSend);
             foreach(string data in dataToSend)
             {
