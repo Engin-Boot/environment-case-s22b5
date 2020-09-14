@@ -6,6 +6,7 @@ namespace receiver.Utils
 {
     internal class DataValidator
     {
+        
         internal bool ValidateReceivedData(string receivedData, ref EnvironmentData environmentData)
         {
             
@@ -19,19 +20,18 @@ namespace receiver.Utils
                     environmentData.Temperature = double.Parse(environmentDataString[0]);
                     environmentData.Humidity = double.Parse(environmentDataString[1]);
                     Console.WriteLine(environmentData);
-                    Console.WriteLine();
                     isValid = true;
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Exception: "+e.Message);
+                    Console.WriteLine("Exception: "+e.Message+"\n");
                     isValid = false;
                 }
 
             }
             else
             {
-                Console.WriteLine("File Does not exist");
+                Console.WriteLine("File Does not exist\n");
                 Environment.Exit(-1);
             }
 

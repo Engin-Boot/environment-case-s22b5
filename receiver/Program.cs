@@ -1,4 +1,5 @@
-﻿using receiver.Data;
+﻿using System;
+using receiver.Data;
 using receiver.Utils;
 
 namespace receiver
@@ -33,6 +34,7 @@ namespace receiver
 
                 Logger.LoggingTemperatureToConsole(temperatureStatusCode);
                 Logger.LoggingHumidityToConsole( humidityStatusCode);
+                Console.WriteLine();
             }
         }
     }
