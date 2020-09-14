@@ -9,4 +9,3 @@ namespace sender.Utils
         public const int senderWaitingTime = 500;    //In Milliseconds
     }
 }
- 
