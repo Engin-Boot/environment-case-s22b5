@@ -4,20 +4,20 @@ namespace sender
 {
     internal class Program
     {
-        private static readonly FileReader fileReader;
-        private static readonly DataSender dataSender;
+        private static readonly FileReader FileReader;
+        private static readonly DataSender DataSender;
         static Program()
         {
-            fileReader = new FileReader();
-            dataSender = new DataSender();
+            FileReader = new FileReader();
+            DataSender = new DataSender();
         }
         internal static void Main()
         {
-            var dataToSend =fileReader.ReadCsv(Utils.SenderConstants.CsvFilePath);
+            var dataToSend = FileReader.ReadCsv(Utils.SenderConstants.CsvFilePath);
             //Console.WriteLine(dataToSend);
             foreach(string data in dataToSend)
             {
-                dataSender.SendViaConsole(data);
+                DataSender.SendViaConsole(data);
                 Thread.Sleep(SenderConstants.SenderWaitingTime);
             }
             
