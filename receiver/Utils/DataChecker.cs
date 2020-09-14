@@ -6,7 +6,7 @@ namespace receiver.Utils
         internal int CheckTemperatureAndReturnStatusCode(double temperature)
         {
             int temperatureStatusCode;
-            if ((temperature > 0 && temperature <= 4) || (temperature >= 37 && temperature < 40))
+            /*if ((temperature > 0 && temperature <= 4) || (temperature >= 37 && temperature < 40))
             {
                 temperatureStatusCode= 1; // warning
             }
@@ -17,14 +17,20 @@ namespace receiver.Utils
             else
             {
                 temperatureStatusCode= 0; // OK
-            }
-
+            }*/
+            if (temperature > 4 && temperature < 37)
+                temperatureStatusCode = 0;
+            else if ((temperature <= 0) || (temperature >= 40))
+                temperatureStatusCode = 2;
+            else
+                temperatureStatusCode = 1;
             return temperatureStatusCode;
         }
 
         internal int CheckHumidityAndReturnStatusCode(double humidity)
         {
             int humidityStatusCode;
+            /*
             if (humidity >= 70 && humidity < 90)
             {
                 humidityStatusCode= 1;// warning
@@ -37,7 +43,13 @@ namespace receiver.Utils
             {
                 humidityStatusCode= 0;// OK   
             }
-
+            */
+            if (humidity < 70)
+                humidityStatusCode = 0;
+            else if (humidity >= 90)
+                humidityStatusCode = 2;
+            else
+                humidityStatusCode = 1;
             return humidityStatusCode;
         }
     }
