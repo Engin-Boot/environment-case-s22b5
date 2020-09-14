@@ -2,7 +2,7 @@
 using System.Threading;
 namespace sender
 {
-    public class Program
+    internal class Program
     {
         private static readonly FileReader fileReader;
         private static readonly DataSender dataSender;
@@ -11,7 +11,7 @@ namespace sender
             fileReader = new FileReader();
             dataSender = new DataSender();
         }
-        static void Main()
+        internal static void Main()
         {
             var dataToSend =fileReader.ReadCsv(Utils.SenderConstants.CsvFilePath);
             //Console.WriteLine(dataToSend);

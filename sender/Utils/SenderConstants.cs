@@ -2,10 +2,10 @@
 
 namespace sender.Utils
 {
-    public static class SenderConstants
+    internal static class SenderConstants
     {
-        private static string CurrentDirectory = Directory.GetCurrentDirectory();
-        public static string CsvFilePath = CurrentDirectory + @"\environment-data.csv";
+        private static readonly string CurrentDirectory = Directory.GetCurrentDirectory();
+        public static readonly string CsvFilePath = CurrentDirectory + @"\environment-data.csv";
         public const int SenderWaitingTime = 500;    //In Milliseconds
     }
 }
