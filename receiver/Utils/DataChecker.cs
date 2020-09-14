@@ -20,11 +20,16 @@ namespace receiver.Utils
             }*/
             if (temperature > 4 && temperature < 37)
                 temperatureStatusCode = 0;
-            else if ((temperature <= 0) || (temperature >= 40))
+            else if (IsErrorTemperature(temperature))
                 temperatureStatusCode = 2;
             else
                 temperatureStatusCode = 1;
             return temperatureStatusCode;
+        }
+
+        private static bool IsErrorTemperature(double temperature)
+        {
+            return temperature <= 0 || temperature >= 40;
         }
 
         internal int CheckHumidityAndReturnStatusCode(double humidity)
