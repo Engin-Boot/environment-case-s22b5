@@ -4,11 +4,10 @@ namespace receiver.Utils
 {
     internal class Logger
     {
-        internal void LoggingToConsole(int temperatureStatusCode, int humidityStatusCode)
+        internal void LoggingTemperatureToConsole(int temperatureStatusCode)
         {
             string temperatureMessage;
-            string humidityMessage;
-
+            
             switch (temperatureStatusCode)
             {
                 case 0:
@@ -23,7 +22,11 @@ namespace receiver.Utils
             }
             Console.WriteLine(temperatureMessage);
 
-            
+        }
+
+        public void LoggingHumidityToConsole(int humidityStatusCode)
+        {
+            string humidityMessage;
             switch (humidityStatusCode)
             {
                 case 0:

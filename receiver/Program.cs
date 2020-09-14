@@ -32,7 +32,8 @@ namespace receiver
                         DataChecker.CheckTemperatureAndReturnStatusCode(environmentData.Temperature);
                     var humidityStatusCode = DataChecker.CheckHumidityAndReturnStatusCode(environmentData.Humidity);
 
-                    Logger.LoggingToConsole(temperatureStatusCode, humidityStatusCode);
+                    Logger.LoggingTemperatureToConsole(temperatureStatusCode);
+                    Logger.LoggingTemperatureToConsole( humidityStatusCode);
                 }
             }
         }
