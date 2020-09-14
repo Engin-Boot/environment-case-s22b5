@@ -1,0 +1,32 @@
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\sender.exe.config
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\sender.exe
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\sender.pdb
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.dll
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.assert.dll
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.core.dll
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.dll
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.xml
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.assert.xml
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.core.xml
+C:\Bootcamp Github\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.xml
+C:\Bootcamp Github\environment-case-s22b5\sender\obj\Debug\sender.csprojAssemblyReference.cache
+C:\Bootcamp Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CoreCompileInputs.cache
+C:\Bootcamp Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CopyComplete
+C:\Bootcamp Github\environment-case-s22b5\sender\obj\Debug\sender.exe
+C:\Bootcamp Github\environment-case-s22b5\sender\obj\Debug\sender.pdb
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\sender.exe.config
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\sender.exe
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\sender.pdb
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.dll
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.assert.dll
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.core.dll
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.dll
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.xml
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.assert.xml
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.core.xml
+C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.xml
+C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csprojAssemblyReference.cache
+C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CoreCompileInputs.cache
+C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CopyComplete
+C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.exe
+C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.pdb
