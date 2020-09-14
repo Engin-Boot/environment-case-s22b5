@@ -10,10 +10,10 @@ namespace receiver.Utils
             
             switch (temperatureStatusCode)
             {
-                case 0:
+                case ReceiverConstants.Ok:
                     temperatureMessage = "Temperature: OK";
                     break;
-                case 1:
+                case ReceiverConstants.Warning:
                     temperatureMessage = "Temperature: Warning";
                     break;
                 default:
@@ -29,10 +29,10 @@ namespace receiver.Utils
             string humidityMessage;
             switch (humidityStatusCode)
             {
-                case 0:
+                case ReceiverConstants.Ok:
                     humidityMessage = "Humidity: OK";
                     break;
-                case 1:
+                case ReceiverConstants.Warning:
                     humidityMessage = "Humidity: Warning";
                     break;
                 default:
