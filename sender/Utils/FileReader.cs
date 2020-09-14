@@ -6,7 +6,7 @@ namespace sender.Utils
 {
     internal class FileReader
     {        
-        internal List<string> ReadCSV(string path)
+        internal List<string> ReadCsv(string path)
         {
             var dataArray = new List<string>();
             if (File.Exists(path))

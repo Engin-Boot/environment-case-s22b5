@@ -1,5 +1,4 @@
 ﻿using sender.Utils;
-using System.Collections.Generic;
 using System.Threading;
 namespace sender
 {
@@ -14,12 +13,12 @@ namespace sender
         }
         static void Main()
         {
-            List<string> dataToSend =fileReader.ReadCSV(Utils.SenderConstants.csvFilePath);
+            var dataToSend =fileReader.ReadCsv(Utils.SenderConstants.CsvFilePath);
             //Console.WriteLine(dataToSend);
             foreach(string data in dataToSend)
             {
                 dataSender.SendViaConsole(data);
-                Thread.Sleep(SenderConstants.senderWaitingTime);
+                Thread.Sleep(SenderConstants.SenderWaitingTime);
             }
             
         }
