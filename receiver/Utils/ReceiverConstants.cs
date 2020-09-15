@@ -1,6 +1,6 @@
 ﻿namespace receiver.Utils
 {
-    internal static class ReceiverConstants
+    public static class ReceiverConstants
     {
         public const int Ok = 0;
         public const int Warning = 1;

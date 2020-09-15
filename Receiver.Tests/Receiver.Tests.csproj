@@ -62,7 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ReceiverTest.cs" />
+    <Compile Include="TestLogger.cs" />
+    <Compile Include="TestRangeChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,7 +2,7 @@
 using receiver.Utils;
 namespace Receiver.Tests
 {
-    public class ReceiverTest
+    public class TestRangeChecker
     {
         private readonly RangeChecker _rangeChecker = new RangeChecker();
         [Fact]

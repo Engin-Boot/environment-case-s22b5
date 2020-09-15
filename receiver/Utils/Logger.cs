@@ -2,26 +2,30 @@
 
 namespace receiver.Utils
 {
-    internal class Logger
+    public class Logger
     {
-        internal void LoggingToConsole(int statusCode, string prefixMessage)
+        public void LoggingToConsole(int statusCode, ref string message)
         {
-            string message;
-            
+            if (statusCode == ReceiverConstants.Ok)
+                message += "OK";
+            else
+            {
+                message = PrintNonOkStatusCode(statusCode, ref message);
+            }
+            Console.WriteLine(message);
+        }
+
+        private static string PrintNonOkStatusCode(int statusCode, ref string message)
+        {
             switch (statusCode)
             {
                 case ReceiverConstants.Warning:
-                    message = prefixMessage + "Warning";
-                    break;
+                    return message + "Warning";
                 case ReceiverConstants.Error:
-                    message = prefixMessage + "Error";
-                    break;
+                    return message += "Error";
                 default:
-                    message = prefixMessage + "OK";
-                    break;
+                    return message += "Not A valid Status Code";
             }
-            Console.WriteLine(message);
-
         }
     }
 }

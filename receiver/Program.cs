@@ -31,9 +31,10 @@ namespace receiver
                 var temperatureStatusCode =
                     RangeChecker.CheckTemperatureAndReturnStatusCode(environmentData.Temperature);
                 var humidityStatusCode = RangeChecker.CheckHumidityAndReturnStatusCode(environmentData.Humidity);
-
-                Logger.LoggingToConsole(temperatureStatusCode, "Temperature: ");
-                Logger.LoggingToConsole( humidityStatusCode, "Humidity: ");
+                 var prefixMessage = "Temperature: ";
+                Logger.LoggingToConsole( temperatureStatusCode, ref prefixMessage);
+                prefixMessage = "Humidity: ";
+                Logger.LoggingToConsole( humidityStatusCode, ref prefixMessage);
                 Console.WriteLine();
             }
         }
