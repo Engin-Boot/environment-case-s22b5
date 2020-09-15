@@ -32,7 +32,6 @@ namespace receiver.Utils
             else
             {
                 Console.WriteLine("File Does not exist\n");
-                Environment.Exit(-1);
             }
 
             return isValid;

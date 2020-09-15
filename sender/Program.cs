@@ -14,8 +14,8 @@ namespace sender
         internal static void Main()
         {
             var dataToSend = FileReader.ReadCsv(SenderConstants.CsvFilePath);
-            //Console.WriteLine(dataToSend);
-            foreach(string data in dataToSend)
+
+            foreach(var data in dataToSend)
             {
                 DataSender.SendViaConsole(data);
                 Thread.Sleep(SenderConstants.SenderWaitingTime);

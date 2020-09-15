@@ -17,7 +17,6 @@ namespace Receiver.Tests
             const string receivedData = "25.4,70";
             var isValid = _dataValidator.ValidateReceivedData(receivedData, ref _environmentData);
             Assert.True(isValid);
-
         }
 
         [Fact]
@@ -26,19 +25,19 @@ namespace Receiver.Tests
         {
             var receivedData = "25.4,";
             var isValid = _dataValidator.ValidateReceivedData(receivedData, ref _environmentData);
-            Assert.True(isValid == false);
+            Assert.False(isValid);
 
             receivedData = ",70";
             isValid = _dataValidator.ValidateReceivedData(receivedData, ref _environmentData);
-            Assert.True(isValid == false);
+            Assert.False(isValid);
 
             receivedData = ",";
             isValid = _dataValidator.ValidateReceivedData(receivedData, ref _environmentData);
-            Assert.True(isValid == false);
+            Assert.False(isValid);
 
             receivedData = "File Does not exist";
             isValid = _dataValidator.ValidateReceivedData(receivedData, ref _environmentData);
-            Assert.True(isValid == false);
+            Assert.False(isValid);
         }
     }
 }
