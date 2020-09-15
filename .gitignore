@@ -1,0 +1,12 @@
+.vs
+receiver/bin
+receiver/obj
+sender/bin
+sender/obj
+Sender.Tests/bin
+Sender.Tests/obj
+Receiver.Tests/bin
+Receiver.Tests/obj
+*.user
+*.suo
+
