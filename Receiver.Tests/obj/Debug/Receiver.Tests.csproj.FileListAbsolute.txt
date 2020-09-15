@@ -1,0 +1,15 @@
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\Receiver.Tests.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\Receiver.Tests.pdb
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.abstractions.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.assert.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.core.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.abstractions.xml
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.assert.xml
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.core.xml
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\obj\Debug\Receiver.Tests.csprojAssemblyReference.cache
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\obj\Debug\Receiver.Tests.csproj.CoreCompileInputs.cache
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\obj\Debug\Receiver.Tests.csproj.CopyComplete
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\obj\Debug\Receiver.Tests.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\obj\Debug\Receiver.Tests.pdb

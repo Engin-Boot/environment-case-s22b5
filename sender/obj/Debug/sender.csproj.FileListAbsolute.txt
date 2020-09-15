@@ -25,7 +25,6 @@ C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.xm
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.assert.xml
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.core.xml
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.xml
-C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csprojAssemblyReference.cache
 C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CoreCompileInputs.cache
 C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csproj.CopyComplete
 C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.exe

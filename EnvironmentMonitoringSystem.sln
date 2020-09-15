@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sender", "sender\sender.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "receiver", "receiver\receiver.csproj", "{8B886AE3-D04C-49D7-BA12-6C67161D3C26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver.Tests", "Receiver.Tests\Receiver.Tests.csproj", "{3B6D12D0-6BEB-48E6-B97C-7353147541FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender.Tests", "Sender.Tests\Sender.Tests.csproj", "{D86601CD-5558-4AD5-872F-848008321BE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8B886AE3-D04C-49D7-BA12-6C67161D3C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B886AE3-D04C-49D7-BA12-6C67161D3C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B886AE3-D04C-49D7-BA12-6C67161D3C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6D12D0-6BEB-48E6-B97C-7353147541FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6D12D0-6BEB-48E6-B97C-7353147541FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6D12D0-6BEB-48E6-B97C-7353147541FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6D12D0-6BEB-48E6-B97C-7353147541FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86601CD-5558-4AD5-872F-848008321BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86601CD-5558-4AD5-872F-848008321BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86601CD-5558-4AD5-872F-848008321BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86601CD-5558-4AD5-872F-848008321BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\Sender.Tests.dll
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\Sender.Tests.pdb
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.abstractions.dll
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.assert.dll
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.core.dll
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.abstractions.xml
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.assert.xml
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.core.xml
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\obj\Debug\Sender.Tests.csproj.CoreCompileInputs.cache
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\obj\Debug\Sender.Tests.csproj.CopyComplete
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\obj\Debug\Sender.Tests.dll
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\obj\Debug\Sender.Tests.pdb
+C:\Bootcamp-Github\environment-case-s22b5\Sender.Tests\obj\Debug\Sender.Tests.csprojAssemblyReference.cache

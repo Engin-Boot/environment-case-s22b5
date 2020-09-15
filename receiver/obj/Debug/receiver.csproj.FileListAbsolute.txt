@@ -25,7 +25,6 @@ C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.abstractions.
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.assert.xml
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.core.xml
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.execution.desktop.xml
-C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csprojAssemblyReference.cache
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csproj.CoreCompileInputs.cache
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csproj.CopyComplete
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.exe
