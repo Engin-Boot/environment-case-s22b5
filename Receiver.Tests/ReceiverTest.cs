@@ -48,5 +48,38 @@ namespace Receiver.Tests
             temperature = 37;
             Assert.False(_rangeChecker.CheckTemperatureAndReturnStatusCode(temperature) == 2);
         }
+
+        [Fact]
+        public void WhenHumidityIsInNormalRangeThenReturnOkStatusCode()
+        {
+            var humidity = 50;
+            Assert.True(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 0);
+            humidity = 70;
+            Assert.False(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 0);
+            humidity = 90;
+            Assert.False(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 0);
+        }
+
+        [Fact]
+        public void WhenHumidityIsInWarningRangeThenReturnOkStatusCode()
+        {
+            var humidity = 50;
+            Assert.False(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 1);
+            humidity = 70;
+            Assert.True(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 1);
+            humidity = 90;
+            Assert.False(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 1);
+        }
+
+        [Fact]
+        public void WhenHumidityIsInErrorRangeThenReturnOkStatusCode()
+        {
+            var humidity = 50;
+            Assert.False(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 2);
+            humidity = 70;
+            Assert.False(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 2);
+            humidity = 90;
+            Assert.True(_rangeChecker.CheckHumidityAndReturnStatusCode(humidity) == 2);
+        }
     }
 }

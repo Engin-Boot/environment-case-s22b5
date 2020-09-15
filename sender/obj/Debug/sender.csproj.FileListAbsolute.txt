@@ -39,7 +39,6 @@ C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSp
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.core.dll
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.dll
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\JetBrains.Annotations.xml
-C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.abstractions.xml
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.assert.xml
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.core.xml
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.execution.desktop.xml
@@ -53,3 +52,7 @@ C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.runner.visualst
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.runner.reporters.net452.dll
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\xunit.runner.utility.net452.dll
 C:\Bootcamp-Github\environment-case-s22b5\sender\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
