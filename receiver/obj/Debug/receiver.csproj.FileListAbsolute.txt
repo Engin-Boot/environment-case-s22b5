@@ -21,7 +21,6 @@ C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.abstractions.
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.assert.dll
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.core.dll
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.execution.desktop.dll
-C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.abstractions.xml
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.assert.xml
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.core.xml
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.execution.desktop.xml
@@ -29,3 +28,8 @@ C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csproj.Cor
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csproj.CopyComplete
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.exe
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.pdb
+C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.runner.utility.net452.dll
+C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csprojAssemblyReference.cache

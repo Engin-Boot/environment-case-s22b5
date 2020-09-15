@@ -4,7 +4,6 @@ C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.abstrac
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.assert.dll
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.core.dll
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.execution.desktop.dll
-C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.abstractions.xml
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.assert.xml
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.core.xml
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.execution.desktop.xml
@@ -16,3 +15,7 @@ C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\obj\Debug\Receiver.Test
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\receiver.exe
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\receiver.pdb
 C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\receiver.exe.config
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\xunit.runner.utility.net452.dll
+C:\Bootcamp-Github\environment-case-s22b5\Receiver.Tests\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
