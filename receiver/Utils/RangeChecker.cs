@@ -15,17 +15,17 @@
             return temperatureStatusCode;
         }
 
-            private static bool CheckTemperatureIsInRange(double temperature)
-            {
-                return (temperature > ReceiverConstants.TemperatureWarningLowerLimit && temperature < ReceiverConstants.TemperatureWarningUpperLimit);
-            }
+        private static bool CheckTemperatureIsInRange(double temperature)
+        {
+            return (temperature > ReceiverConstants.TemperatureWarningLowerLimit && temperature < ReceiverConstants.TemperatureWarningUpperLimit);
+        }
 
-            private static bool CheckTemperatureIsInErrorRange(double temperature)
-            {
-                return (temperature <= ReceiverConstants.TemperatureErrorLowerLimit || temperature >= ReceiverConstants.TemperatureErrorUpperLimit);
-            }
+        private static bool CheckTemperatureIsInErrorRange(double temperature)
+        {
+            return (temperature <= ReceiverConstants.TemperatureErrorLowerLimit || temperature >= ReceiverConstants.TemperatureErrorUpperLimit);
+        }
 
-            internal int CheckHumidityAndReturnStatusCode(double humidity)
+        internal int CheckHumidityAndReturnStatusCode(double humidity)
         {
             int humidityStatusCode;
             if (humidity < ReceiverConstants.HumidityOkUpperLimit)
