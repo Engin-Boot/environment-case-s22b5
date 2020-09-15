@@ -59,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Utils\Logger.cs" />
-    <Compile Include="Utils\DataChecker.cs" />
+    <Compile Include="Utils\RangeChecker.cs" />
     <Compile Include="Utils\DataValidator.cs" />
     <Compile Include="Utils\DataReceiver.cs" />
     <Compile Include="Program.cs" />

@@ -2,7 +2,7 @@
 using System.Threading;
 namespace sender
 {
-    internal class Program
+    internal static class Program
     {
         private static readonly FileReader FileReader;
         private static readonly DataSender DataSender;

@@ -4,42 +4,24 @@ namespace receiver.Utils
 {
     internal class Logger
     {
-        internal void LoggingTemperatureToConsole(int temperatureStatusCode)
+        internal void LoggingToConsole(int statusCode, string prefixMessage)
         {
-            string temperatureMessage;
+            string message;
             
-            switch (temperatureStatusCode)
+            switch (statusCode)
             {
-                case ReceiverConstants.Ok:
-                    temperatureMessage = "Temperature: OK";
-                    break;
                 case ReceiverConstants.Warning:
-                    temperatureMessage = "Temperature: Warning";
+                    message = prefixMessage + "Warning";
+                    break;
+                case ReceiverConstants.Error:
+                    message = prefixMessage + "Error";
                     break;
                 default:
-                    temperatureMessage = "Temperature: Error";
+                    message = prefixMessage + "OK";
                     break;
             }
-            Console.WriteLine(temperatureMessage);
+            Console.WriteLine(message);
 
-        }
-
-        public void LoggingHumidityToConsole(int humidityStatusCode)
-        {
-            string humidityMessage;
-            switch (humidityStatusCode)
-            {
-                case ReceiverConstants.Ok:
-                    humidityMessage = "Humidity: OK";
-                    break;
-                case ReceiverConstants.Warning:
-                    humidityMessage = "Humidity: Warning";
-                    break;
-                default:
-                    humidityMessage = "Humidity: Error";
-                    break;
-            }
-            Console.WriteLine(humidityMessage);
         }
     }
 }
