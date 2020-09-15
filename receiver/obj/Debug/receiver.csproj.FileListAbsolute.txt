@@ -31,7 +31,6 @@ C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.runner.visual
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.runner.reporters.net452.dll
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\xunit.runner.utility.net452.dll
 C:\Bootcamp-Github\environment-case-s22b5\receiver\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csprojAssemblyReference.cache
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\receiver\bin\Debug\xunit.runner.visualstudio.testadapter.dll
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\receiver\bin\Debug\xunit.runner.reporters.net452.dll
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\receiver\bin\Debug\xunit.runner.utility.net452.dll
