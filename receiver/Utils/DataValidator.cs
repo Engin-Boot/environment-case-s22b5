@@ -4,10 +4,10 @@ using System;
 namespace receiver.Utils
 
 {
-    internal class DataValidator
+    public class DataValidator
     {
-        
-        internal bool ValidateReceivedData(string receivedData, ref EnvironmentData environmentData)
+
+        public bool ValidateReceivedData(string receivedData, ref EnvironmentData environmentData)
         {
             
             var isValid = false;

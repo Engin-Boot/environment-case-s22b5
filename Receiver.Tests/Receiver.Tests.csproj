@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestLogger.cs" />
+    <Compile Include="TestDataValidator.cs" />
     <Compile Include="TestRangeChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

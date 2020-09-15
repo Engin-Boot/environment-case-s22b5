@@ -1,6 +1,6 @@
 ﻿namespace receiver.Data
 {
-    internal class EnvironmentData
+    public class EnvironmentData
     {
         internal double Temperature { get; set; }
         internal double Humidity { get; set; }
