@@ -8,7 +8,7 @@ namespace receiver
     {
         private static readonly DataReceiver DataReceiver;
         private static readonly DataValidator DataValidator;
-        private static readonly RangeChecker rangeChecker;
+        private static readonly RangeChecker RangeChecker;
         private static readonly Logger Logger;
         
 
@@ -16,7 +16,7 @@ namespace receiver
         {
             DataReceiver = new DataReceiver();          
             DataValidator = new DataValidator();
-            rangeChecker = new RangeChecker();
+            RangeChecker = new RangeChecker();
             Logger = new Logger();
 
         }
@@ -29,8 +29,8 @@ namespace receiver
                 var isValid = DataValidator.ValidateReceivedData(receivedData, ref environmentData);
                 if (!isValid) continue;
                 var temperatureStatusCode =
-                    rangeChecker.CheckTemperatureAndReturnStatusCode(environmentData.Temperature);
-                var humidityStatusCode = rangeChecker.CheckHumidityAndReturnStatusCode(environmentData.Humidity);
+                    RangeChecker.CheckTemperatureAndReturnStatusCode(environmentData.Temperature);
+                var humidityStatusCode = RangeChecker.CheckHumidityAndReturnStatusCode(environmentData.Humidity);
 
                 Logger.LoggingToConsole(temperatureStatusCode, "Temperature: ");
                 Logger.LoggingToConsole( humidityStatusCode, "Humidity: ");
