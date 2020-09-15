@@ -27,7 +27,7 @@ namespace Sender.Tests
         [Fact]
         public void WhenInputCsvFileIsPresentThenReturnDataList()
         {
-            var data = _fileReader.ReadCsv(SenderConstants.CsvFilePath);
+            var data = _fileReader.ReadCsv($@"{Directory.GetCurrentDirectory()}\test-environment-data.csv");
             Assert.True(data.Count > 0);
         }
     }
