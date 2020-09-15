@@ -1,5 +1,4 @@
-﻿using System;
-using sender.Utils;
+﻿using sender.Utils;
 using System.Threading;
 
 namespace sender

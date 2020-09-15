@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using Xunit;
 using sender.Utils;
 
@@ -7,7 +6,7 @@ namespace Sender.Tests
 {
     public class TestFileReader
     {
-        FileReader _fileReader = new FileReader();
+        private readonly FileReader _fileReader = new FileReader();
         
         [Fact]
         public void WhenInputCsvFileIsNotFoundThenReturnNull()
