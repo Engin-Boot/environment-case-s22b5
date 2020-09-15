@@ -29,4 +29,3 @@ C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csproj.Cor
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csproj.CopyComplete
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.exe
 C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.pdb
-C:\Bootcamp-Github\environment-case-s22b5\receiver\obj\Debug\receiver.csprojAssemblyReference.cache

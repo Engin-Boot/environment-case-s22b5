@@ -1,8 +1,8 @@
 ﻿namespace receiver.Utils
 {
-    internal class RangeChecker
+    public class RangeChecker
     {
-        internal int CheckTemperatureAndReturnStatusCode(double temperature)
+        public int CheckTemperatureAndReturnStatusCode(double temperature)
         {
             int temperatureStatusCode;
 
@@ -25,7 +25,7 @@
             return (temperature <= ReceiverConstants.TemperatureErrorLowerLimit || temperature >= ReceiverConstants.TemperatureErrorUpperLimit);
         }
 
-        internal int CheckHumidityAndReturnStatusCode(double humidity)
+        public int CheckHumidityAndReturnStatusCode(double humidity)
         {
             int humidityStatusCode;
             if (humidity < ReceiverConstants.HumidityOkUpperLimit)

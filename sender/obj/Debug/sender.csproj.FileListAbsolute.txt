@@ -49,3 +49,4 @@ C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSp
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.csproj.CopyComplete
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.exe
 C:\Users\320087402\OneDrive - Philips\Documents\BootCampWorkspace\VisualStudioSpace\5_CaseStudy\environment-case-s22b5\sender\obj\Debug\sender.pdb
+C:\Bootcamp-Github\environment-case-s22b5\sender\obj\Debug\sender.csprojAssemblyReference.cache
