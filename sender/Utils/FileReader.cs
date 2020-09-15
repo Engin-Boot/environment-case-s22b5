@@ -4,9 +4,9 @@ using System.IO;
 
 namespace sender.Utils
 { 
-    internal class FileReader
-    {        
-        internal List<string> ReadCsv(string path)
+    public class FileReader
+    {
+        public List<string> ReadCsv(string path)
         {
             var dataArray = new List<string>();
             if (File.Exists(path))
@@ -21,12 +21,11 @@ namespace sender.Utils
                         dataArray.Add(line);
                     }
                 }
-                
             }
             else
             {
                 Console.WriteLine("File Does not exist");
-                Environment.Exit(-1);
+                return null;
             }
             return dataArray;
         }

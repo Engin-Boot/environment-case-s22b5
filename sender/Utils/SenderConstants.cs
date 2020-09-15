@@ -2,7 +2,7 @@
 
 namespace sender.Utils
 {
-    internal static class SenderConstants
+    public static class SenderConstants
     {
         private static readonly string CurrentDirectory = Directory.GetCurrentDirectory();
         public static readonly string CsvFilePath = CurrentDirectory + @"\environment-data.csv";

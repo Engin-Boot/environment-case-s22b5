@@ -1,5 +1,7 @@
-﻿using sender.Utils;
+﻿using System;
+using sender.Utils;
 using System.Threading;
+
 namespace sender
 {
     internal static class Program
@@ -15,6 +17,10 @@ namespace sender
         {
             var dataToSend = FileReader.ReadCsv(SenderConstants.CsvFilePath);
 
+            if (dataToSend.Count.Equals(0))
+            {
+                return;
+            }
             foreach(var data in dataToSend)
             {
                 DataSender.SendViaConsole(data);
